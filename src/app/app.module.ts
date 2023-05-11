@@ -28,6 +28,7 @@ registerLocaleData(localeFrCA);
   ],
   providers: [
     //para cambiar el idioma de los pipes globalmente en la app
+    
     {
       provide: LOCALE_ID,
       useValue: 'es-HN',
